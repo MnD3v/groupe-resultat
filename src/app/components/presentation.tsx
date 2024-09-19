@@ -31,7 +31,7 @@ const Presentation = () => {
                                     variants={Animations.bottomToTop({ duration: 2.2 })}
                                     initial="hidden"
                                     whileInView="show"
-                                    className="w-[400px]">
+                                    className="max-w-[400px]">
                                     Transformez vos ambitions en compétences digitales grâce à nos formations, pour réussir dans un monde en pleine transformation.
                                 </motion.p>
                                 <motion.a href='#formations'
