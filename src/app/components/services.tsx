@@ -1,74 +1,95 @@
 import { motion } from 'framer-motion'
 import React from 'react'
 import Animations from './utils/item'
+import { formations_neuf, formations_six, } from '../constants'
 
 const Services = () => {
 
-    const services = [
-        {
-            icon: "topographie.png",
-            title: "TOPOGRAPHIE",
-            description: "Apprenez les techniques modernes de relevé et d'analyse de terrains, en utilisant des outils de géomatique et de cartographie numérique. Cette formation vous prépare aux métiers de la topographie avec une maîtrise complète des équipements de pointe",
-            link: "topographie"
-        }
-        ,
-        {
-            icon: "reseau.png",
-            title: "MAINTENANCE ET RÉSEAU INFORMATIQUE",
-            description: "Devenez un expert en maintenance informatique et en gestion de réseaux. Vous apprendrez à diagnostiquer et réparer des systèmes, ainsi qu’à installer, configurer et gérer des réseaux informatiques pour des entreprises de toutes tailles.",
-            link: "maintenance-et-reseau-informatique"
-        },
-        {
-            icon: "vente.png",
-            title: "VENTE ET GESTION DE CAISSE",
-            description: "Acquérez les compétences nécessaires pour travailler dans la vente au détail et la gestion des opérations de caisse. Cette formation vous prépare à la gestion des transactions commerciales, des inventaires et des relations clients.",
-            link: "vente-et-gestion-de-caisse"
-        },
-        {
-            icon: "transi.png",
-            title: "TRANSI DOUANE & MAGASINAGE",
-            description: "Cette formation vous prépare à gérer les processus de transit douanier et de magasinage. Apprenez à assurer le suivi des marchandises, à maîtriser les procédures douanières et à organiser les flux logistiques de manière optimale.",
-            link: "transi-douane-magasinage"
-        },
-        {
-            icon: "langue.png",
-            title: "LANGUES",
-            description: "Améliorez vos compétences linguistiques dans des langues clés pour le commerce international et les affaires. Nous proposons des formations adaptées aux besoins professionnels, avec des cours intensifs en anglais, espagnole, français et autres langues.",
-            link: "langues"
-        }
-    ]
+
     return (
-        <section id="formations" className='my-10 flex flex-col items-center'>
+        <section id="formations" className='my-10 mx-2 md:mx-4 flex flex-col items-center'>
 
-            <div className='flex items-center '>
-                <div className='h-2 w-2 bg-orange-600 m-2'></div>
+            <div className='max w-full font-jost pb-4'>
+                <div className='flex items-center  self-start gap-2'>
+                    <div className='h-2 w-2 bg-orange-600'></div>
 
-                <p className='text-orange-600 uppercase font-poppins font-bold'>Services</p>
-                <div className='h-2 w-2 bg-orange-600 m-2'></div>
+                    <p className='text-orange-600 uppercase font-poppins font-bold'>Services</p>
+                    <div className='h-2 w-2 bg-orange-600'></div>
 
-            </div>
-            <h1 className=' uppercase font-jost  font-semibold text-2xl md:text-4xl
+                </div>
+                <h1 className=' uppercase font-jost  font-semibold text-2xl md:text-4xl
             my-4
+            self-start
             '>formations</h1>
 
-
-            <div className=' max flex flex-wrap justify-center gap-6'>
+                <h3>Nous offrons des formations modulaires de 9 et 6 mois</h3>
+                <h2 className='inline-block text-white font-bricolage
+                my-6
+                bg-orange-500 border-2 border-white rounded-full px-4 py-2
+                ring ring-orange-500 self-start
+                '>6 mois</h2>
+            </div>
+            <div className='max  grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3'>
                 {
-                    services.map((element) => (
+                    formations_six.map((element1) => {
+                        const height = Math.random() * 300
+                        const width = Math.random() * 100
+                        return (
+                            <motion.a
+                                variants={Animations.bottomToTop({ duration: 0.3 * formations_six.indexOf(element1) + 0.2 })}
+                                initial="hidden"
+                                whileInView="show"
+                                viewport={{ once: true }}
+                                key={element1.icon} href={"/formations/" + element1.link}> <div
+
+                                    className='relative hover:text-white focus:text-white 
+                                    h-full
+                                    hover:bg-orange-950  focus:bg-orange-950 border border-orange-300 rounded-xl  
+                                    p-4 transition-all duration-200
+                                    overflow-hidden
+                                    '>
+                                    <div
+                                        style={{ height: `${height}px`, width: `${height}px`, top: `${width}px`, left: `${width}px` }}
+                                        className={"absolute bg-gradient-to-br from-orange-500/20 to-transparent rounded-full"}></div>
+                                    <div className='relative  space-y-2 z-10'>
+                                        <h3 className='font-semibold font-bricolage'>{element1.title}</h3>
+                                        <p>{element1.description}</p>
+                                        <h3 className='font-bricolage text-orange-800'>{element1.cost}</h3>
+                                        <button className='font-bold text-orange-600 '>
+                                            <div className='flex items-center'>
+                                                <p>Voir plus</p>
+                                                <img src="/icons/arrow-go.png" alt="" className='h-6' />
+                                            </div>
+                                        </button>
+                                    </div>
+                                </div>
+                            </motion.a>
+                        )
+                    })
+                }
+            </div>
+            <h2 className='inline-block text-white font-bricolage
+                my-6 mt-12
+                bg-orange-500 border-2 border-white rounded-full px-4 py-2
+                ring ring-orange-500 self-start
+                '>9 mois</h2>
+            <div className='max  grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3'>
+                {
+                    formations_neuf.map((element) => (
                         <motion.a
-                            variants={Animations.bottomToTop({ duration: 0.3 * services.indexOf(element) + 0.2 })}
+                            variants={Animations.bottomToTop({ duration: 0.3 * formations_neuf.indexOf(element) + 0.2 })}
                             initial="hidden"
                             whileInView="show"
                             viewport={{ once: true }}
-                            key={element.icon} href={"/formations/" + element.link} className='p-2'> <div
+                            key={element.icon} href={"/formations/" + element.link}> <div
 
                                 className='hover:text-white focus:text-white 
-                                w-full sm:w-96 md:h-[350px]
-                                hover:bg-orange-950  focus:bg-orange-950 border-2 border-orange-300 rounded-xl  
-                                space-y-2 p-6 transition-all duration-200'>
-                                <img src={"/icons/" + element.icon} alt="" className='h-12' />
+                                h-full
+                                hover:bg-orange-950  focus:bg-orange-950 border border-orange-300 rounded-xl  
+                                space-y-2 p-4 transition-all duration-200'>
                                 <h3 className='font-semibold font-bricolage'>{element.title}</h3>
                                 <p>{element.description}</p>
+                                <h3 className='font-bricolage text-orange-800'>{element.cost}</h3>
                                 <button className='font-bold text-orange-600 '>
                                     <div className='flex items-center'>
                                         <p>Voir plus</p>

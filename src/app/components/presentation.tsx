@@ -5,7 +5,7 @@ import Animations from './utils/item'
 
 const Presentation = () => {
     return (
-        <section id='' className="flex justify-center bg-cover">
+        <section id='' className="relative flex justify-center bg-cover overflow-hidden">
             <div className='w-full flex justify-center bg-orange-100'>
                 <div
                     style={{
@@ -41,7 +41,8 @@ const Presentation = () => {
                                     className=" text-orange-800 hover:text-white uppercase font-semibold
                                     px-10 py-4 my-3
                                     hover:bg-orange-800 border-2 border-orange-800 rounded-tl-3xl rounded-br-3xl
-                                     ">nos formations</motion.a>
+                                     ">nos formations
+                                </motion.a>
                             </div>
                         </div>
                         <motion.img

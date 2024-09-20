@@ -47,7 +47,12 @@ export default function RootLayout({
         </GlobalStateProvider>
 
         <footer className="relative flex justify-center bg-orange-950 p-9 pt-9 md:pt-24 text-white overflow-hidden max-sm:text-sm">
-          <div className="absolute -bottom-12 -left-24 h-36 w-64 rounded-full bg-white/10 z-0 -rotate-45"></div>
+          <div className="absolute 
+          -bottom-12 -left-[50%]
+          h-full w-full
+         bg-gradient-to-bl from-white/10 to-transparent 
+          -rotate-45
+           z-0 "></div>
           <div className="relative z-10 max flex flex-wrap justify-center gap-9">
 
             <div>

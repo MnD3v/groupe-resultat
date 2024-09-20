@@ -1,49 +1,289 @@
+export const formations_six = [
+    {
+        icon: "secretaire_bilingue.png",
+        title: "SECRÉTARIAT BUREAUTIQUE BILINGUE",
+        description: "Maîtrisez les compétences en secrétariat tout en améliorant vos compétences linguistiques en français et en anglais. Cette formation vous prépare à la gestion de bureau dans des contextes internationaux.",
+        link: "secretariat-bureautique-bilingue",
+        full_description: "Le secrétariat bureautique bilingue forme les professionnels à la gestion des tâches administratives dans des environnements multilingues. La maîtrise des logiciels de bureautique (Word, Excel, PowerPoint) ainsi que des compétences en rédaction de documents en français et en anglais est essentielle. Cette formation permet de gérer les communications internes et externes, d’organiser les agendas, les réunions, et de coordonner les tâches administratives dans un environnement bilingue.",
+        debouches: " Secrétaire bilingue* Assistant administratif* Chargé de communication* Assistant de direction bilingue* Assistant personnel",
+        ues: "Bureautique* Anglais professionnel* Communication* Gestion administrative",
+        cost: "100 000 F"
+    },
+    {
+        icon: "secretaire_caisse.png",
+        title: "SECRÉTARIAT ET GESTION DE CAISSE",
+        description: "Acquérez les compétences nécessaires en secrétariat et gestion de caisse pour travailler efficacement dans des environnements commerciaux.",
+        link: "secretariat-gestion-caisse",
+        full_description: "Cette formation combine des compétences en secrétariat et en gestion de caisse. Elle vous permet d’apprendre à gérer les opérations de caisse tout en assurant des tâches administratives telles que la gestion des correspondances, la planification des rendez-vous et l’organisation de documents. Vous serez formé à l’utilisation de logiciels de gestion de caisse et à la gestion des transactions financières quotidiennes.",
+        debouches: " Secrétaire caissier* Gestionnaire de caisse* Assistant commercial* Caissier en grande surface",
+        ues: "Bureautique* Gestion de caisse* Communication* Comptabilité basique",
+        cost: "100 000 F"
+    },
+    {
+        icon: "comptabilite_fiscalite.png",
+        title: "COMPTABILITÉ ET FISCALITÉ DES ENTREPRISES",
+        description: "Apprenez les bases de la comptabilité et la gestion fiscale pour travailler dans des entreprises de toutes tailles.",
+        link: "comptabilite-fiscalite-entreprises",
+        full_description: "Cette formation vous prépare à maîtriser les principes fondamentaux de la comptabilité d’entreprise ainsi que les régulations fiscales en vigueur. Vous apprendrez à gérer les livres comptables, à préparer les états financiers et à optimiser les processus fiscaux pour les entreprises. L'objectif est de vous rendre capable de gérer les obligations fiscales des entreprises et d'accompagner leur développement économique.",
+        debouches: " Comptable* Fiscaliste d'entreprise* Assistant en gestion financière* Responsable comptabilité",
+        ues: "Comptabilité générale* Fiscalité* Droit des entreprises* Gestion des impôts",
+        cost: "100 000 F"
+    },
+    {
+        icon: "management_rh.png",
+        title: "MANAGEMENT, GESTION DES RH ET PAIE",
+        description: "Formez-vous aux bases du management des ressources humaines et de la gestion des paies dans une organisation.",
+        link: "management-gestion-rh-paie",
+        full_description: "Cette formation permet d’acquérir des compétences en gestion des ressources humaines, notamment dans le recrutement, la formation, la gestion des carrières et des paies. Vous apprendrez à gérer les aspects administratifs du personnel, ainsi qu’à utiliser des logiciels de gestion des paies et des ressources humaines pour optimiser le fonctionnement de votre entreprise.",
+        debouches: " Responsable RH* Gestionnaire de paie* Assistant RH* Manager en gestion du personnel",
+        ues: "Management des RH* Gestion de paie* Droit du travail* Logiciels RH",
+        cost: "150 000 F"
+    },
+    {
+        icon: "caisse_microfinance.png",
+        title: "CAISSE ET GESTION DE MICROFINANCE",
+        description: "Devenez expert en gestion de caisse et de microfinance, un secteur en plein essor.",
+        link: "caisse-gestion-microfinance",
+        full_description: "Cette formation est axée sur la gestion de caisse dans les institutions de microfinance. Vous apprendrez les processus de gestion des fonds, l’octroi de prêts, la collecte des remboursements et la tenue des registres financiers. Cette formation vous prépare à travailler dans des institutions financières de proximité, en développant des solutions pour les populations à faible revenu.",
+        debouches: " Gestionnaire de caisse en microfinance* Agent de crédit* Conseiller financier* Responsable de caisse",
+        ues: "Microfinance* Gestion de caisse* Octroi de crédit* Analyse financière",
+        cost: "150 000 F"
+    },
+    {
+        icon: "communication_entreprises.png",
+        title: "COMMUNICATION DES ENTREPRISES",
+        description: "Maîtrisez les stratégies de communication interne et externe pour développer l’image et la réputation d’une entreprise.",
+        link: "communication-entreprises",
+        full_description: "Cette formation permet d’acquérir les compétences pour gérer la communication d’entreprise, en interne comme en externe. Vous apprendrez à créer des plans de communication, à gérer les relations presse et à maîtriser les outils de communication digitale. Cette formation vous prépare à construire une image de marque cohérente et à développer des stratégies de communication efficaces.",
+        debouches: " Chargé de communication* Responsable des relations presse* Responsable communication digitale* Community manager",
+        ues: "Communication institutionnelle* Stratégie digitale* Relations presse* Publicité",
+        cost: "150 000 F"
+    },
+    {
+        icon: "logistique_transit.png",
+        title: "LOGISTIQUE, TRANSIT ET DOUANE",
+        description: "Apprenez à gérer les flux logistiques, le transit douanier et les opérations de commerce international.",
+        link: "logistique-transit-douane",
+        full_description: "Cette formation couvre la gestion logistique, les formalités de transit douanier, ainsi que les aspects réglementaires du commerce international. Vous apprendrez à organiser les flux de marchandises, à gérer les opérations douanières, et à optimiser les processus de stockage et de transport. Vous serez formé aux outils de gestion des stocks et à l’optimisation des coûts liés aux chaînes d’approvisionnement.",
+        debouches: " Responsable logistique* Déclarant en douane* Agent de transit* Gestionnaire de stocks* Coordinateur logistique",
+        ues: "Gestion des stocks* Réglementation douanière* Transit international* Transport et logistique",
+        cost: "100 000 F"
+    },
+    {
+        icon: "planification_projets.png",
+        title: "PLANIFICATION ET GESTION DES PROJETS",
+        description: "Développez les compétences nécessaires pour planifier, exécuter et suivre des projets de manière efficace.",
+        link: "planification-gestion-projets",
+        full_description: "La formation en planification et gestion de projets vous apprend à structurer un projet, à gérer les ressources, à contrôler les coûts et à assurer une bonne communication entre les parties prenantes. Vous maîtriserez des outils comme le diagramme de Gantt, le chemin critique, et d’autres techniques de gestion de projet pour garantir la réussite de vos projets.",
+        debouches: " Chef de projet* Consultant en gestion de projets* Assistant de projet* Coordinateur de projet",
+        ues: "Gestion de projet* Planification* Suivi et évaluation* Communication de projet",
+        cost: "100 000 F"
+    },
+    {
+        icon: "maintenance_reseau.png",
+        title: "MAINTENANCE RÉSEAU",
+        description: "Devenez un expert en maintenance des réseaux et infrastructures informatiques.",
+        link: "maintenance-reseau",
+        full_description: "Cette formation est conçue pour vous apprendre à installer, configurer, maintenir et réparer des réseaux informatiques. Vous apprendrez également à gérer la sécurité des réseaux et à identifier les menaces potentielles. Vous serez formé à l’utilisation d’outils de surveillance des réseaux et à la gestion des systèmes d’information pour garantir la disponibilité et la sécurité des données.",
+        debouches: " Technicien réseau* Administrateur réseau* Ingénieur réseau* Consultant en infrastructure réseau",
+        ues: "Maintenance réseau* Sécurité informatique* Administration système* Gestion des serveurs",
+        cost: "150 000 F"
+    },
+    {
+        icon: "agriculture_maraichere.png",
+        title: "AGRICULTURE ÉCOLOGIQUE ET MARAÎCHÈRE",
+        description: "Apprenez les techniques d'agriculture durable et de maraîchage pour développer une exploitation agricole respectueuse de l’environnement.",
+        link: "agriculture-ecologique-maraichere",
+        full_description: "Cette formation enseigne les techniques agricoles respectueuses de l’environnement, axées sur le maraîchage et la gestion durable des terres. Vous apprendrez à utiliser des méthodes de culture biologique et à mettre en place des systèmes d’irrigation et de gestion de la fertilité des sols. La formation aborde également l’aspect entrepreneurial, vous permettant de gérer une exploitation agricole.",
+        debouches: " Agriculteur biologique* Technicien en maraîchage* Responsable d'exploitation agricole* Conseiller agricole",
+        ues: "Maraîchage* Agriculture durable* Gestion des sols* Entrepreneur agricole",
+        cost: "100 000 F"
+    }
+];
+
+
+export const formations_neuf = [
+    {
+        icon: "secretariat_medical.png",
+        title: "SECRÉTARIAT MÉDICAL ET GESTION PHARMACEUTIQUE",
+        description: "Formez-vous aux tâches administratives dans le secteur médical tout en maîtrisant la gestion pharmaceutique.",
+        link: "secretariat-medical-gestion-pharmaceutique",
+        full_description: "Cette formation prépare les participants à travailler dans des environnements médicaux en tant que secrétaires médicaux tout en acquérant des compétences en gestion pharmaceutique. Vous apprendrez à gérer les dossiers médicaux, organiser les rendez-vous, et assister le personnel médical. De plus, vous serez formé à la gestion des stocks et à la régulation des produits pharmaceutiques.",
+        debouches: " Secrétaire médical* Gestionnaire de stock pharmaceutique* Assistant médical* Coordinateur de services médicaux",
+        ues: "Secrétariat médical* Gestion pharmaceutique* Communication* Techniques d'accueil des patients",
+        cost: "150 000 F"
+    },
+    {
+        icon: "secretariat_bureautique_aide_comptable.png",
+        title: "SECRÉTARIAT BUREAUTIQUE ET AIDE COMPTABLE",
+        description: "Acquérez des compétences en secrétariat et en aide comptable pour travailler dans différents environnements professionnels.",
+        link: "secretariat-bureautique-aide-comptable",
+        full_description: "Cette formation combine les compétences en secrétariat avec une formation pratique en aide comptable. Vous apprendrez à gérer les tâches administratives, la saisie de données comptables, ainsi que la gestion des documents financiers. Cette double compétence est idéale pour travailler dans des PME et des environnements de bureau nécessitant des compétences en administration et en comptabilité.",
+        debouches: " Secrétaire bureautique* Assistant comptable* Assistant administratif* Agent de bureau",
+        ues: "Bureautique* Comptabilité basique* Gestion administrative* Communication",
+        cost: "150 000 F"
+    },
+    {
+        icon: "geometrie_topographie.png",
+        title: "GÉOMÉTRIE - TOPOGRAPHIE",
+        description: "Devenez un spécialiste en géométrie et en topographie pour travailler dans le secteur du génie civil et de la construction.",
+        link: "geometrie-topographie",
+        full_description: "Cette formation couvre les techniques essentielles de géométrie et de topographie, utilisées dans le domaine de la construction et des travaux publics. Vous apprendrez à utiliser des outils topographiques modernes pour effectuer des relevés précis de terrains, à réaliser des plans et à interpréter des données géométriques. La formation inclut également des compétences en dessin technique et en gestion des projets d'infrastructure.",
+        debouches: " Géomètre* Technicien topographe* Dessinateur technique* Responsable de relevés topographiques",
+        ues: "Topographie* Géométrie* Dessin technique* Gestion des projets",
+        cost: "300 000 F"
+    },
+    {
+        icon: "delegue_medical.png",
+        title: "DÉLÉGUÉ MÉDICAL",
+        description: "Formez-vous pour devenir délégué médical, un acteur clé entre les laboratoires pharmaceutiques et les professionnels de santé.",
+        link: "delegue-medical",
+        full_description: "Cette formation vous prépare au métier de délégué médical en vous enseignant comment promouvoir les produits pharmaceutiques auprès des médecins et professionnels de santé. Vous apprendrez à analyser le marché, à élaborer des stratégies de vente, et à gérer les relations avec les professionnels du secteur médical. L'objectif est de développer vos compétences en communication médicale et en techniques de vente pour représenter les laboratoires pharmaceutiques.",
+        debouches: " Délégué médical* Commercial en produits pharmaceutiques* Représentant de laboratoire* Chargé de promotion médicale",
+        ues: "Communication médicale* Techniques de vente* Analyse du marché pharmaceutique* Gestion des relations médicales",
+        cost: "200 000 F"
+    }
+]
+
 export const formations = [
     {
-        icon: "topographie.png",
-        title: "TOPOGRAPHIE",
-        description: "Apprenez les techniques modernes de relevé et d'analyse de terrains, en utilisant des outils de géomatique et de cartographie numérique. Cette formation vous prépare aux métiers de la topographie avec une maîtrise complète des équipements de pointe",
-        link: "topographie",
-        full_description: "La topographie est une discipline scientifique qui s'intéresse à l'étude et à la représentation des formes et des caractéristiques d'un terrain, que ce soit à petite ou grande échelle. Elle implique la mesure précise des distances, des angles et des altitudes afin de dresser des plans détaillés ou des cartes géographiques. Cette science permet de comprendre la configuration du sol, qu'il s'agisse de montagnes, de vallées, de rivières, ou encore des structures artificielles telles que des bâtiments, des routes, ou des ponts. Pour réaliser ces mesures, les topographes utilisent des instruments sophistiqués comme le théodolite, le niveau optique, le GPS et la station totale, qui permettent de mesurer des coordonnées avec une grande précision. La topographie est essentielle dans divers domaines : en génie civil pour la construction de bâtiments et d'infrastructures, en urbanisme pour l'aménagement des villes, en agriculture pour la gestion des terrains, et dans la gestion des ressources naturelles pour comprendre l'impact des activités humaines sur l'environnement. En somme, elle joue un rôle clé dans la planification, la conception, et la réalisation de projets qui requièrent une compréhension fine du terrain.",
-        debouches: "  Géomètre-topographe : Ce professionnel est chargé de réaliser des relevés topographiques et de dresser des plans précis de terrains pour la construction de routes, de bâtiments, et d'infrastructures. * Technicien en génie civil : Il travaille sur des projets de construction, aidant à planifier et à superviser la mise en œuvre des travaux grâce à des relevés topographiques. * Cartographe : Ce spécialiste crée des cartes en se basant sur des données topographiques, utiles dans l'urbanisme, l'environnement, et la gestion des territoires. * Ingénieur géomètre : Il participe à des projets de grande envergure, souvent en collaboration avec des architectes, des urbanistes, et des ingénieurs pour concevoir des infrastructures complexes. * Spécialiste en aménagement du territoire : Ce professionnel analyse les données topographiques pour planifier des projets de développement urbain ou rural, en optimisant l'utilisation des terres et des ressources. * Expert en systèmes d'information géographique (SIG) : Il combine la topographie avec des technologies informatiques pour analyser des données spatiales et aider à la prise de décision dans l'aménagement du territoire, la gestion environnementale, ou la planification urbaine. * Technicien en gestion des ressources naturelles : Les relevés topographiques sont essentiels pour la gestion des forêts, des rivières, et d'autres ressources naturelles, afin d'évaluer l'impact des activités humaines et de protéger l'environnement. * Consultant en travaux publics : Vous pouvez également évoluer en tant que consultant auprès des entreprises de travaux publics pour superviser et évaluer les relevés topographiques lors de la construction d’infrastructures majeures.",
-        ues: "Info. Appliqué* Anglais professionnel* Droit du travail* Écrit professionnel* Topographie générale* Surface de référence et coordonnées* Planimétrie* Altimétrie"
-    }
-    ,
-    {
-        icon: "reseau.png",
-        title: "MAINTENANCE ET RÉSEAU INFORMATIQUE",
-        description: "Devenez un expert en maintenance informatique et en gestion de réseaux. Vous apprendrez à diagnostiquer et réparer des systèmes, ainsi qu’à installer, configurer et gérer des réseaux informatiques pour des entreprises de toutes tailles.",
-        link: "maintenance-et-reseau-informatique",
-        full_description: "La maintenance et réseau informatique est un domaine qui englobe l'ensemble des activités visant à assurer le bon fonctionnement des systèmes informatiques et des réseaux. Les professionnels dans ce domaine sont responsables de l'installation, de la configuration, de la surveillance et de la réparation des équipements informatiques tels que les ordinateurs, serveurs, routeurs, et autres infrastructures réseau.Leur rôle inclut la gestion des réseaux locaux (LAN), des réseaux étendus (WAN), et d'autres systèmes de communication, en veillant à ce que la connectivité soit fluide et sécurisée. Ils identifient et résolvent les problèmes techniques, effectuent des mises à jour régulières des logiciels et du matériel, et s'assurent que les systèmes de sécurité (pare-feu, antivirus, etc.) sont à jour pour protéger les données sensibles.Les techniciens et ingénieurs de ce domaine jouent un rôle crucial dans les entreprises, car ils garantissent la continuité des opérations en assurant que les systèmes informatiques fonctionnent efficacement. Ils peuvent aussi être amenés à former les utilisateurs sur les bonnes pratiques et à réaliser des audits de performance pour anticiper les besoins futurs en termes d’infrastructure.Les compétences acquises dans ce domaine permettent de travailler dans diverses industries, allant des PME aux grandes entreprises, dans des services IT internes ou en tant que consultant pour des prestataires spécialisés en maintenance informatique et gestion de réseaux.",
-        debouches: " Technicien de maintenance informatique : Responsable de la réparation et de l’entretien des équipements informatiques. * Administrateur réseau : Gère et maintient les infrastructures réseau d’une entreprise. * Ingénieur en sécurité informatique : Assure la protection des systèmes informatiques et réseaux contre les cybermenaces. * Technicien support informatique : Fournit une assistance technique aux utilisateurs pour résoudre les problèmes matériels et logiciels. * Consultant en systèmes et réseaux : Conseille les entreprises sur l'optimisation et la gestion de leurs infrastructures réseau. * Architecte réseau : Conçoit et implémente les architectures réseau pour assurer une connectivité efficace et sécurisée. * Responsable IT : Supervise l’ensemble du parc informatique et des réseaux dans une organisation. * Ingénieur cloud : Gère les systèmes et réseaux basés sur des infrastructures cloud (Amazon AWS, Microsoft Azure, etc.).",
-        ues: "Maintenance technique et logistique* Réseau informatique* Système de vidéo surveillance* Antenne parabolique"
-
+        icon: "secretaire_bilingue.png",
+        title: "SECRÉTARIAT BUREAUTIQUE BILINGUE",
+        description: "Maîtrisez les compétences en secrétariat tout en améliorant vos compétences linguistiques en français et en anglais. Cette formation vous prépare à la gestion de bureau dans des contextes internationaux.",
+        link: "secretariat-bureautique-bilingue",
+        full_description: "Le secrétariat bureautique bilingue forme les professionnels à la gestion des tâches administratives dans des environnements multilingues. La maîtrise des logiciels de bureautique (Word, Excel, PowerPoint) ainsi que des compétences en rédaction de documents en français et en anglais est essentielle. Cette formation permet de gérer les communications internes et externes, d’organiser les agendas, les réunions, et de coordonner les tâches administratives dans un environnement bilingue.",
+        debouches: " Secrétaire bilingue* Assistant administratif* Chargé de communication* Assistant de direction bilingue* Assistant personnel",
+        ues: "Bureautique* Anglais professionnel* Communication* Gestion administrative",
+        cost: "100 000 F"
     },
     {
-        icon: "vente.png",
-        title: "VENTE ET GESTION DE CAISSE",
-        description: "Acquérez les compétences nécessaires pour travailler dans la vente au détail et la gestion des opérations de caisse. Cette formation vous prépare à la gestion des transactions commerciales, des inventaires et des relations clients.",
-        link: "vente-et-gestion-de-caisse",
-        full_description: "La vente et gestion de caisse est un domaine qui regroupe l'ensemble des compétences nécessaires pour assurer une expérience client fluide et efficace lors des transactions commerciales, tout en garantissant une bonne gestion des opérations financières liées aux points de vente. Cette formation prépare à la maîtrise des outils et des techniques utilisés dans les commerces pour gérer les ventes, encaisser les paiements, et optimiser la gestion des stocks.Les professionnels dans ce secteur sont responsables de l’accueil des clients, de la présentation des produits, et de la finalisation des ventes. Ils doivent connaître les différents modes de paiement (espèces, cartes, chèques, etc.) et utiliser des logiciels de gestion de caisse (POS - Point of Sale). Leur rôle inclut également la gestion des transactions (ouvertures et fermetures de caisse), la vérification des fonds de caisse, et le traitement des anomalies ou des écarts.En plus de la gestion des opérations quotidiennes, ils assurent aussi une bonne organisation des stocks en collaboration avec d'autres équipes, veillant à ce que les produits soient disponibles et bien exposés. Les compétences en vente incluent la capacité à comprendre les besoins des clients, à conseiller sur les produits et à garantir une satisfaction maximale pour favoriser la fidélité.Ce domaine forme des professionnels qui sont à l’aise avec l’utilisation des outils informatiques et possèdent d'excellentes compétences relationnelles. Ils sont essentiels dans des environnements variés tels que les commerces de détail, les grandes surfaces, les boutiques spécialisées ou encore les environnements de restauration et de services.",
-        debouches: " Caissier : Gère les transactions de vente et assure l’encaissement des paiements. * Responsable de caisse : Supervise l’activité des caissiers et gère les fonds de caisse. * Vendeur en magasin : Conseille les clients, effectue les ventes et assure la satisfaction client. * Gestionnaire de point de vente : S’occupe de la gestion globale du magasin, y compris les ventes, les stocks et la caisse. * Assistant commercial : Aide à la gestion des ventes et des relations avec les clients. * Responsable de magasin : Gère les opérations commerciales, l’équipe de vente et la gestion de la caisse. * Technicien en maintenance de systèmes de caisse : Assure le bon fonctionnement des terminaux de point de vente (POS). * Formateur en systèmes de caisse : Forme les employés à l’utilisation des logiciels et systèmes de gestion de caisse.",
-        ues: "Info. Bureautique* TypingMaster* Anglais Professionnel* Droit du travail* Écrit Professionnel* Communication* Compta. Général* Sage 100 Commercial* Compatibilité* Caisse décentralisée"
+        icon: "secretaire_caisse.png",
+        title: "SECRÉTARIAT ET GESTION DE CAISSE",
+        description: "Acquérez les compétences nécessaires en secrétariat et gestion de caisse pour travailler efficacement dans des environnements commerciaux.",
+        link: "secretariat-gestion-caisse",
+        full_description: "Cette formation combine des compétences en secrétariat et en gestion de caisse. Elle vous permet d’apprendre à gérer les opérations de caisse tout en assurant des tâches administratives telles que la gestion des correspondances, la planification des rendez-vous et l’organisation de documents. Vous serez formé à l’utilisation de logiciels de gestion de caisse et à la gestion des transactions financières quotidiennes.",
+        debouches: " Secrétaire caissier* Gestionnaire de caisse* Assistant commercial* Caissier en grande surface",
+        ues: "Bureautique* Gestion de caisse* Communication* Comptabilité basique",
+        cost: "100 000 F"
     },
     {
-        icon: "transi.png",
-        title: "TRANSI DOUANE & MAGASINAGE",
-        description: "Cette formation vous prépare à gérer les processus de transit douanier et de magasinage. Apprenez à assurer le suivi des marchandises, à maîtriser les procédures douanières et à organiser les flux logistiques de manière optimale.",
-        link: "transi-douane-magasinage",
-        full_description: "Le transit douanier et le magasinage sont deux processus clés dans la logistique internationale et la gestion des chaînes d'approvisionnement. Le transit douanier fait référence au processus par lequel les marchandises traversent les frontières internationales en respectant les régulations douanières. Cela inclut la déclaration des biens aux autorités douanières, le paiement des droits de douane et des taxes, ainsi que la vérification et l'inspection des marchandises pour s'assurer qu'elles sont conformes aux réglementations des pays d'origine, de transit et de destination. Une gestion efficace du transit douanier permet d'éviter des retards et des pénalités, facilitant ainsi le commerce international.Le magasinage, de son côté, concerne la gestion et le stockage des marchandises dans un entrepôt ou un centre de distribution. Il comprend la réception des produits, leur rangement selon des systèmes d'organisation adaptés, la gestion des niveaux de stocks pour éviter les ruptures ou les excédents, et la préparation des commandes en vue de leur expédition. Une gestion efficace du magasinage optimise l'espace de stockage, réduit les coûts opérationnels et assure que les marchandises sont disponibles en bon état et en temps opportun pour répondre à la demande. Ensemble, ces processus assurent une chaîne d'approvisionnement fluide et conforme aux exigences réglementaires.",
-        debouches: " Transit douanier : Gère les formalités douanières pour le passage des marchandises à travers les frontières. * Déclarant en douane : Prépare et soumet les déclarations douanières nécessaires pour l'importation ou l'exportation de marchandises. * Responsable douanier : Supervise les opérations douanières, veille à la conformité avec les réglementations et gère les relations avec les autorités douanières. * Contrôleur de conformité : Vérifie que les marchandises et la documentation respectent les réglementations douanières et les normes internationales. * Agent de transit : Organise et coordonne le transport des marchandises à travers les frontières, en s'assurant que toutes les formalités douanières sont remplies. * Expert en réglementation douanière : Conseille les entreprises sur les règles et les procédures douanières pour optimiser le transit des marchandises. * Gestionnaire de chaîne d'approvisionnement : Supervise l'ensemble du processus de transit douanier et de gestion des stocks pour garantir une chaîne d'approvisionnement fluide.*Magasinage : Gère le stockage et la gestion des marchandises dans un entrepôt ou un centre de distribution. * Responsable d'entrepôt : Supervise les opérations de stockage, de gestion des stocks et de préparation des commandes. * Gestionnaire de stocks : Assure la gestion et le suivi des niveaux de stocks pour optimiser l'approvisionnement et réduire les excédents. * Préparateur de commandes : Prépare les marchandises pour l'expédition en fonction des commandes reçues, en veillant à leur précision et à leur bon état. * Coordinateur de logistique : Organise le transport et le stockage des marchandises, en coordonnant les activités entre les différents services logistiques. * Opérateur de chariot élévateur : Manie les équipements de levage pour déplacer les marchandises au sein de l'entrepôt. * Analyste des opérations de stockage : Évalue les processus de gestion des stocks et propose des améliorations pour optimiser l'efficacité de l'entrepôt. * Responsable de la qualité : Veille à ce que les marchandises stockées répondent aux normes de qualité avant leur expédition.",
-        ues: "Info. Appliquée * Anglais * professionnel * Droit du travail * Écrit professionnel * Transi-douane * consignation * Négoce * Transport logistique * Entreposage"
+        icon: "comptabilite_fiscalite.png",
+        title: "COMPTABILITÉ ET FISCALITÉ DES ENTREPRISES",
+        description: "Apprenez les bases de la comptabilité et la gestion fiscale pour travailler dans des entreprises de toutes tailles.",
+        link: "comptabilite-fiscalite-entreprises",
+        full_description: "Cette formation vous prépare à maîtriser les principes fondamentaux de la comptabilité d’entreprise ainsi que les régulations fiscales en vigueur. Vous apprendrez à gérer les livres comptables, à préparer les états financiers et à optimiser les processus fiscaux pour les entreprises. L'objectif est de vous rendre capable de gérer les obligations fiscales des entreprises et d'accompagner leur développement économique.",
+        debouches: " Comptable* Fiscaliste d'entreprise* Assistant en gestion financière* Responsable comptabilité",
+        ues: "Comptabilité générale* Fiscalité* Droit des entreprises* Gestion des impôts",
+        cost: "100 000 F"
     },
     {
-        icon: "langue.png",
-        title: "LANGUES",
-        description: "Améliorez vos compétences linguistiques dans des langues clés pour le commerce international et les affaires. Nous proposons des formations adaptées aux besoins professionnels, avec des cours intensifs en anglais, espagnole, français et autres langues.",
-        link: "langues",
-        full_description: "La formation en langues couvre l'anglais, l'espagnol et le français, visant à développer des compétences linguistiques complètes pour faciliter la communication dans divers contextes professionnels et personnels. En anglais, la formation se concentre sur la grammaire, le vocabulaire, les compétences orales et écrites, ainsi que la compréhension orale et la communication interculturelle, essentielle pour les interactions internationales. En espagnol, elle inclut l'étude de la grammaire, la pratique de la conversation, la rédaction de documents professionnels, la compréhension orale, et une sensibilisation aux aspects culturels des pays hispanophones. En français, la formation couvre également la grammaire et le vocabulaire, les compétences orales et écrites, la compréhension orale, et la culture francophone, afin de maîtriser les nuances linguistiques et culturelles dans les interactions professionnelles et sociales. Cette approche globale permet de renforcer les capacités de communication et de compréhension dans ces trois langues majeures.",
-        debouches: " Formation en langues (Anglais, Espagnol, Français) : * Traducteur : Convertit des documents et des communications d'une langue à une autre, assurant la précision et la fluidité du texte. * Interprète : Facilite la communication orale entre des personnes parlant différentes langues lors de conférences, réunions ou événements. * Enseignant de langues : Enseigne l'anglais, l'espagnol ou le français dans des écoles, des instituts de langue ou des programmes de formation. * Rédacteur/trice : Crée et édite des contenus écrits dans plusieurs langues pour des publications, des sites web ou des documents marketing. * Responsable de la communication internationale : Gère les relations et les échanges internationaux dans un environnement professionnel, en utilisant plusieurs langues pour assurer une communication efficace. * Conseiller en affaires internationales : Offre des conseils sur les stratégies de marché et les négociations dans des contextes multilingues. * Agent de service clientèle multilingue : Fournit un support client dans plusieurs langues, améliorant la satisfaction et l'expérience client. * Spécialiste en localisation : Adapte des produits, services ou contenus pour les rendre appropriés aux marchés francophones, hispanophones ou anglophones.",
-        ues: "Non precisé"
+        icon: "management_rh.png",
+        title: "MANAGEMENT, GESTION DES RH ET PAIE",
+        description: "Formez-vous aux bases du management des ressources humaines et de la gestion des paies dans une organisation.",
+        link: "management-gestion-rh-paie",
+        full_description: "Cette formation permet d’acquérir des compétences en gestion des ressources humaines, notamment dans le recrutement, la formation, la gestion des carrières et des paies. Vous apprendrez à gérer les aspects administratifs du personnel, ainsi qu’à utiliser des logiciels de gestion des paies et des ressources humaines pour optimiser le fonctionnement de votre entreprise.",
+        debouches: " Responsable RH* Gestionnaire de paie* Assistant RH* Manager en gestion du personnel",
+        ues: "Management des RH* Gestion de paie* Droit du travail* Logiciels RH",
+        cost: "150 000 F"
+    },
+    {
+        icon: "caisse_microfinance.png",
+        title: "CAISSE ET GESTION DE MICROFINANCE",
+        description: "Devenez expert en gestion de caisse et de microfinance, un secteur en plein essor.",
+        link: "caisse-gestion-microfinance",
+        full_description: "Cette formation est axée sur la gestion de caisse dans les institutions de microfinance. Vous apprendrez les processus de gestion des fonds, l’octroi de prêts, la collecte des remboursements et la tenue des registres financiers. Cette formation vous prépare à travailler dans des institutions financières de proximité, en développant des solutions pour les populations à faible revenu.",
+        debouches: " Gestionnaire de caisse en microfinance* Agent de crédit* Conseiller financier* Responsable de caisse",
+        ues: "Microfinance* Gestion de caisse* Octroi de crédit* Analyse financière",
+        cost: "150 000 F"
+    },
+    {
+        icon: "communication_entreprises.png",
+        title: "COMMUNICATION DES ENTREPRISES",
+        description: "Maîtrisez les stratégies de communication interne et externe pour développer l’image et la réputation d’une entreprise.",
+        link: "communication-entreprises",
+        full_description: "Cette formation permet d’acquérir les compétences pour gérer la communication d’entreprise, en interne comme en externe. Vous apprendrez à créer des plans de communication, à gérer les relations presse et à maîtriser les outils de communication digitale. Cette formation vous prépare à construire une image de marque cohérente et à développer des stratégies de communication efficaces.",
+        debouches: " Chargé de communication* Responsable des relations presse* Responsable communication digitale* Community manager",
+        ues: "Communication institutionnelle* Stratégie digitale* Relations presse* Publicité",
+        cost: "150 000 F"
+    },
+    {
+        icon: "logistique_transit.png",
+        title: "LOGISTIQUE, TRANSIT ET DOUANE",
+        description: "Apprenez à gérer les flux logistiques, le transit douanier et les opérations de commerce international.",
+        link: "logistique-transit-douane",
+        full_description: "Cette formation couvre la gestion logistique, les formalités de transit douanier, ainsi que les aspects réglementaires du commerce international. Vous apprendrez à organiser les flux de marchandises, à gérer les opérations douanières, et à optimiser les processus de stockage et de transport. Vous serez formé aux outils de gestion des stocks et à l’optimisation des coûts liés aux chaînes d’approvisionnement.",
+        debouches: " Responsable logistique* Déclarant en douane* Agent de transit* Gestionnaire de stocks* Coordinateur logistique",
+        ues: "Gestion des stocks* Réglementation douanière* Transit international* Transport et logistique",
+        cost: "100 000 F"
+    },
+    {
+        icon: "planification_projets.png",
+        title: "PLANIFICATION ET GESTION DES PROJETS",
+        description: "Développez les compétences nécessaires pour planifier, exécuter et suivre des projets de manière efficace.",
+        link: "planification-gestion-projets",
+        full_description: "La formation en planification et gestion de projets vous apprend à structurer un projet, à gérer les ressources, à contrôler les coûts et à assurer une bonne communication entre les parties prenantes. Vous maîtriserez des outils comme le diagramme de Gantt, le chemin critique, et d’autres techniques de gestion de projet pour garantir la réussite de vos projets.",
+        debouches: " Chef de projet* Consultant en gestion de projets* Assistant de projet* Coordinateur de projet",
+        ues: "Gestion de projet* Planification* Suivi et évaluation* Communication de projet",
+        cost: "100 000 F"
+    },
+    {
+        icon: "maintenance_reseau.png",
+        title: "MAINTENANCE RÉSEAU",
+        description: "Devenez un expert en maintenance des réseaux et infrastructures informatiques.",
+        link: "maintenance-reseau",
+        full_description: "Cette formation est conçue pour vous apprendre à installer, configurer, maintenir et réparer des réseaux informatiques. Vous apprendrez également à gérer la sécurité des réseaux et à identifier les menaces potentielles. Vous serez formé à l’utilisation d’outils de surveillance des réseaux et à la gestion des systèmes d’information pour garantir la disponibilité et la sécurité des données.",
+        debouches: " Technicien réseau* Administrateur réseau* Ingénieur réseau* Consultant en infrastructure réseau",
+        ues: "Maintenance réseau* Sécurité informatique* Administration système* Gestion des serveurs",
+        cost: "150 000 F"
+    },
+    {
+        icon: "agriculture_maraichere.png",
+        title: "AGRICULTURE ÉCOLOGIQUE ET MARAÎCHÈRE",
+        description: "Apprenez les techniques d'agriculture durable et de maraîchage pour développer une exploitation agricole respectueuse de l’environnement.",
+        link: "agriculture-ecologique-maraichere",
+        full_description: "Cette formation enseigne les techniques agricoles respectueuses de l’environnement, axées sur le maraîchage et la gestion durable des terres. Vous apprendrez à utiliser des méthodes de culture biologique et à mettre en place des systèmes d’irrigation et de gestion de la fertilité des sols. La formation aborde également l’aspect entrepreneurial, vous permettant de gérer une exploitation agricole.",
+        debouches: " Agriculteur biologique* Technicien en maraîchage* Responsable d'exploitation agricole* Conseiller agricole",
+        ues: "Maraîchage* Agriculture durable* Gestion des sols* Entrepreneur agricole",
+        cost: "100 000 F"
+    },
+    {
+        icon: "secretariat_medical.png",
+        title: "SECRÉTARIAT MÉDICAL ET GESTION PHARMACEUTIQUE",
+        description: "Formez-vous aux tâches administratives dans le secteur médical tout en maîtrisant la gestion pharmaceutique.",
+        link: "secretariat-medical-gestion-pharmaceutique",
+        full_description: "Cette formation prépare les participants à travailler dans des environnements médicaux en tant que secrétaires médicaux tout en acquérant des compétences en gestion pharmaceutique. Vous apprendrez à gérer les dossiers médicaux, organiser les rendez-vous, et assister le personnel médical. De plus, vous serez formé à la gestion des stocks et à la régulation des produits pharmaceutiques.",
+        debouches: " Secrétaire médical* Gestionnaire de stock pharmaceutique* Assistant médical* Coordinateur de services médicaux",
+        ues: "Secrétariat médical* Gestion pharmaceutique* Communication* Techniques d'accueil des patients",
+        cost: "150 000 F"
+    },
+    {
+        icon: "secretariat_bureautique_aide_comptable.png",
+        title: "SECRÉTARIAT BUREAUTIQUE ET AIDE COMPTABLE",
+        description: "Acquérez des compétences en secrétariat et en aide comptable pour travailler dans différents environnements professionnels.",
+        link: "secretariat-bureautique-aide-comptable",
+        full_description: "Cette formation combine les compétences en secrétariat avec une formation pratique en aide comptable. Vous apprendrez à gérer les tâches administratives, la saisie de données comptables, ainsi que la gestion des documents financiers. Cette double compétence est idéale pour travailler dans des PME et des environnements de bureau nécessitant des compétences en administration et en comptabilité.",
+        debouches: " Secrétaire bureautique* Assistant comptable* Assistant administratif* Agent de bureau",
+        ues: "Bureautique* Comptabilité basique* Gestion administrative* Communication",
+        cost: "150 000 F"
+    },
+    {
+        icon: "geometrie_topographie.png",
+        title: "GÉOMÉTRIE - TOPOGRAPHIE",
+        description: "Devenez un spécialiste en géométrie et en topographie pour travailler dans le secteur du génie civil et de la construction.",
+        link: "geometrie-topographie",
+        full_description: "Cette formation couvre les techniques essentielles de géométrie et de topographie, utilisées dans le domaine de la construction et des travaux publics. Vous apprendrez à utiliser des outils topographiques modernes pour effectuer des relevés précis de terrains, à réaliser des plans et à interpréter des données géométriques. La formation inclut également des compétences en dessin technique et en gestion des projets d'infrastructure.",
+        debouches: " Géomètre* Technicien topographe* Dessinateur technique* Responsable de relevés topographiques",
+        ues: "Topographie* Géométrie* Dessin technique* Gestion des projets",
+        cost: "300 000 F"
+    },
+    {
+        icon: "delegue_medical.png",
+        title: "DÉLÉGUÉ MÉDICAL",
+        description: "Formez-vous pour devenir délégué médical, un acteur clé entre les laboratoires pharmaceutiques et les professionnels de santé.",
+        link: "delegue-medical",
+        full_description: "Cette formation vous prépare au métier de délégué médical en vous enseignant comment promouvoir les produits pharmaceutiques auprès des médecins et professionnels de santé. Vous apprendrez à analyser le marché, à élaborer des stratégies de vente, et à gérer les relations avec les professionnels du secteur médical. L'objectif est de développer vos compétences en communication médicale et en techniques de vente pour représenter les laboratoires pharmaceutiques.",
+        debouches: " Délégué médical* Commercial en produits pharmaceutiques* Représentant de laboratoire* Chargé de promotion médicale",
+        ues: "Communication médicale* Techniques de vente* Analyse du marché pharmaceutique* Gestion des relations médicales",
+        cost: "200 000 F"
     }
 ]
