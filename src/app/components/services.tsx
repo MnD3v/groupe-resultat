@@ -40,7 +40,7 @@ const Services = () => {
                                 initial="hidden"
                                 whileInView="show"
                                 viewport={{ once: true }}
-                                key={element1.icon} href={"/formations/" + element1.link}> <div
+                                key={element1.image} href={"/formations/" + element1.link}> <div
 
                                     className='relative hover:text-white focus:text-white 
                                     h-full
@@ -81,7 +81,7 @@ const Services = () => {
                             initial="hidden"
                             whileInView="show"
                             viewport={{ once: true }}
-                            key={element.icon} href={"/formations/" + element.link}> <div
+                            key={element.image} href={"/formations/" + element.link}> <div
 
                                 className='hover:text-white focus:text-white 
                                 h-full

@@ -72,7 +72,7 @@ const AppBar = () => {
 
                                 <div>
                                     <p className="font-semibold">+228 90 90 90 90</p>
-                                    <p>ths@group.com</p>
+                                    <p>resultat@group.com</p>
                                 </div>
                             </div>
 
@@ -146,7 +146,7 @@ const MobileAppBar = ({ menuRef, menuIsOpen, inNotHome }: { menuRef: React.RefOb
 
                     <div>
                         <p className="font-semibold">+228 90 90 90 90</p>
-                        <p>ths@group.com</p>
+                        <p>resultat@group.com</p>
                     </div>
                 </div>
 

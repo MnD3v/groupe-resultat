@@ -41,13 +41,18 @@ const Formation = ({ params }: { params: { link: string } }) => {
                 initial="hidden"
                 whileInView="show"
                 className=''>
-                <div className='bg-blue-950 flex flex-col items-center text-white'>
+                <div
+                    style={{
+                        backgroundImage: "radial-gradient(#fb923c 1px, transparent 0)",
+                        backgroundSize: "20px 20px"
+                    }}
+                    className='bg-orange-100 flex flex-col items-center font-jost'>
                     <AppBar></AppBar>
 
-                    <div className=' justify-center items-center mb-8 md:my-12 mx-2'>
+                    <div className=' justify-center items-center mb-8 md:my-12 mx-2 space-y-3'>
                         <h1 className='text-center text-2xl md:text-4xl'>FORMATIONS </h1>
 
-                        <h1 className='text-center text-xl md:text-4xl text-orange-600'>{formation?.title}</h1>
+                        <h2 className='text-center text-xl md:text-3xl text-orange-600'>{formation?.title}</h2>
                     </div>
 
                 </div>
@@ -55,7 +60,7 @@ const Formation = ({ params }: { params: { link: string } }) => {
                     <div className='max-w-[800px] leading-relaxed'>
 
                         <div className='m-2 md:m-9'>
-                            <img src={"/formations/" + formation?.icon.split('.')[0] + ".jpg"} alt="" className='h-[200px] sm:h-[300px] md:h-[500px] w-full object-cover' />
+                            <img src={formation?.image} alt="" className='h-[200px] sm:h-[300px] md:h-[500px] w-full object-cover' />
                             <h1 className='font-bricolage text-2xl md:text-4xl text-orange-600 mt-6'>{formation?.title}</h1>
                             <div className='h-px w-28 bg-blue-900 my-3'></div>
                             <p>{formation?.full_description}</p>

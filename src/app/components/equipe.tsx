@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Equipe = () => {
-    const membres = [{ image: "/pdg.jpg", poste: "PDG", nom: "Nazifou KERIM" }, { image: "/vice.jpg", poste: "Vice Président", nom: "Nom du Vice" },]
+    const membres = [{ image: "/vice.jpg", poste: "PDG", nom: "Nom du Vice KERIM" }, { image: "/vice.jpg", poste: "Vice Président", nom: "Nom du Vice" },]
     return (
         <div className='flex justify-center'>
             <div className='max my-10'>

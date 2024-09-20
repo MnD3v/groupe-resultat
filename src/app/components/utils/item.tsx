@@ -19,9 +19,10 @@ class Animations {
         });
     };
 
-    static bottomToTop({ duration, inverse, delay }: { duration: number, inverse?: boolean, delay?: number, }) {
+    static bottomToTop({ duration, inverse, delay, begin }: { begin?: number, duration: number, inverse?: boolean, delay?: number, }) {
+        const begin_safe = begin ?? 120
         return ({
-            hidden: { opacity: 0, y: inverse == true ? -120 : 120, },
+            hidden: { opacity: 0, y: inverse == true ? -begin_safe : begin_safe, },
             show: {
 
                 opacity: 1,

@@ -1,6 +1,6 @@
 export const formations_six = [
     {
-        icon: "secretaire_bilingue.png",
+        image: "secretaire_bilingue.png",
         title: "SECRÉTARIAT BUREAUTIQUE BILINGUE",
         description: "Maîtrisez les compétences en secrétariat tout en améliorant vos compétences linguistiques en français et en anglais. Cette formation vous prépare à la gestion de bureau dans des contextes internationaux.",
         link: "secretariat-bureautique-bilingue",
@@ -10,7 +10,7 @@ export const formations_six = [
         cost: "100 000 F"
     },
     {
-        icon: "secretaire_caisse.png",
+        image: "secretaire_caisse.png",
         title: "SECRÉTARIAT ET GESTION DE CAISSE",
         description: "Acquérez les compétences nécessaires en secrétariat et gestion de caisse pour travailler efficacement dans des environnements commerciaux.",
         link: "secretariat-gestion-caisse",
@@ -20,7 +20,7 @@ export const formations_six = [
         cost: "100 000 F"
     },
     {
-        icon: "comptabilite_fiscalite.png",
+        image: "comptabilite_fiscalite.png",
         title: "COMPTABILITÉ ET FISCALITÉ DES ENTREPRISES",
         description: "Apprenez les bases de la comptabilité et la gestion fiscale pour travailler dans des entreprises de toutes tailles.",
         link: "comptabilite-fiscalite-entreprises",
@@ -30,7 +30,7 @@ export const formations_six = [
         cost: "100 000 F"
     },
     {
-        icon: "management_rh.png",
+        image: "management_rh.png",
         title: "MANAGEMENT, GESTION DES RH ET PAIE",
         description: "Formez-vous aux bases du management des ressources humaines et de la gestion des paies dans une organisation.",
         link: "management-gestion-rh-paie",
@@ -40,7 +40,7 @@ export const formations_six = [
         cost: "150 000 F"
     },
     {
-        icon: "caisse_microfinance.png",
+        image: "caisse_microfinance.png",
         title: "CAISSE ET GESTION DE MICROFINANCE",
         description: "Devenez expert en gestion de caisse et de microfinance, un secteur en plein essor.",
         link: "caisse-gestion-microfinance",
@@ -50,7 +50,7 @@ export const formations_six = [
         cost: "150 000 F"
     },
     {
-        icon: "communication_entreprises.png",
+        image: "communication_entreprises.png",
         title: "COMMUNICATION DES ENTREPRISES",
         description: "Maîtrisez les stratégies de communication interne et externe pour développer l’image et la réputation d’une entreprise.",
         link: "communication-entreprises",
@@ -60,7 +60,7 @@ export const formations_six = [
         cost: "150 000 F"
     },
     {
-        icon: "logistique_transit.png",
+        image: "logistique_transit.png",
         title: "LOGISTIQUE, TRANSIT ET DOUANE",
         description: "Apprenez à gérer les flux logistiques, le transit douanier et les opérations de commerce international.",
         link: "logistique-transit-douane",
@@ -70,7 +70,7 @@ export const formations_six = [
         cost: "100 000 F"
     },
     {
-        icon: "planification_projets.png",
+        image: "planification_projets.png",
         title: "PLANIFICATION ET GESTION DES PROJETS",
         description: "Développez les compétences nécessaires pour planifier, exécuter et suivre des projets de manière efficace.",
         link: "planification-gestion-projets",
@@ -80,7 +80,7 @@ export const formations_six = [
         cost: "100 000 F"
     },
     {
-        icon: "maintenance_reseau.png",
+        image: "maintenance_reseau.png",
         title: "MAINTENANCE RÉSEAU",
         description: "Devenez un expert en maintenance des réseaux et infrastructures informatiques.",
         link: "maintenance-reseau",
@@ -90,7 +90,7 @@ export const formations_six = [
         cost: "150 000 F"
     },
     {
-        icon: "agriculture_maraichere.png",
+        image: "agriculture_maraichere.png",
         title: "AGRICULTURE ÉCOLOGIQUE ET MARAÎCHÈRE",
         description: "Apprenez les techniques d'agriculture durable et de maraîchage pour développer une exploitation agricole respectueuse de l’environnement.",
         link: "agriculture-ecologique-maraichere",
@@ -104,7 +104,7 @@ export const formations_six = [
 
 export const formations_neuf = [
     {
-        icon: "secretariat_medical.png",
+        image: "secretariat_medical.png",
         title: "SECRÉTARIAT MÉDICAL ET GESTION PHARMACEUTIQUE",
         description: "Formez-vous aux tâches administratives dans le secteur médical tout en maîtrisant la gestion pharmaceutique.",
         link: "secretariat-medical-gestion-pharmaceutique",
@@ -114,7 +114,7 @@ export const formations_neuf = [
         cost: "150 000 F"
     },
     {
-        icon: "secretariat_bureautique_aide_comptable.png",
+        image: "secretariat_bureautique_aide_comptable.png",
         title: "SECRÉTARIAT BUREAUTIQUE ET AIDE COMPTABLE",
         description: "Acquérez des compétences en secrétariat et en aide comptable pour travailler dans différents environnements professionnels.",
         link: "secretariat-bureautique-aide-comptable",
@@ -124,7 +124,7 @@ export const formations_neuf = [
         cost: "150 000 F"
     },
     {
-        icon: "geometrie_topographie.png",
+        image: "geometrie_topographie.png",
         title: "GÉOMÉTRIE - TOPOGRAPHIE",
         description: "Devenez un spécialiste en géométrie et en topographie pour travailler dans le secteur du génie civil et de la construction.",
         link: "geometrie-topographie",
@@ -134,7 +134,7 @@ export const formations_neuf = [
         cost: "300 000 F"
     },
     {
-        icon: "delegue_medical.png",
+        image: "delegue_medical.png",
         title: "DÉLÉGUÉ MÉDICAL",
         description: "Formez-vous pour devenir délégué médical, un acteur clé entre les laboratoires pharmaceutiques et les professionnels de santé.",
         link: "delegue-medical",
@@ -147,7 +147,7 @@ export const formations_neuf = [
 
 export const formations = [
     {
-        icon: "secretaire_bilingue.png",
+        image: "https://img.freepik.com/photos-gratuite/fille-peau-sombre-positive-fait-appel-telephonique-discute-amelioration-du-developpement-projet-entreprise-vetu-pull-jaune-regarde-cote-pose-fond-bleu_273609-34372.jpg?ga=GA1.1.635129033.1711967180&semt=ais_hybrid",
         title: "SECRÉTARIAT BUREAUTIQUE BILINGUE",
         description: "Maîtrisez les compétences en secrétariat tout en améliorant vos compétences linguistiques en français et en anglais. Cette formation vous prépare à la gestion de bureau dans des contextes internationaux.",
         link: "secretariat-bureautique-bilingue",
@@ -157,7 +157,7 @@ export const formations = [
         cost: "100 000 F"
     },
     {
-        icon: "secretaire_caisse.png",
+        image: "https://img.freepik.com/photos-gratuite/businesswoman-in-corporate-start-up-office-analysant-documents-graphique-regardant-presse-papiers_482257-2437.jpg?ga=GA1.1.635129033.1711967180&semt=ais_hybrid",
         title: "SECRÉTARIAT ET GESTION DE CAISSE",
         description: "Acquérez les compétences nécessaires en secrétariat et gestion de caisse pour travailler efficacement dans des environnements commerciaux.",
         link: "secretariat-gestion-caisse",
@@ -167,7 +167,7 @@ export const formations = [
         cost: "100 000 F"
     },
     {
-        icon: "comptabilite_fiscalite.png",
+        image: "https://img.freepik.com/photos-gratuite/decouper-scene-commerciale_23-2147626414.jpg?ga=GA1.1.635129033.1711967180&semt=ais_hybrid",
         title: "COMPTABILITÉ ET FISCALITÉ DES ENTREPRISES",
         description: "Apprenez les bases de la comptabilité et la gestion fiscale pour travailler dans des entreprises de toutes tailles.",
         link: "comptabilite-fiscalite-entreprises",
@@ -177,7 +177,7 @@ export const formations = [
         cost: "100 000 F"
     },
     {
-        icon: "management_rh.png",
+        image: "https://img.freepik.com/photos-gratuite/homme-afro-americain-costume-presentant-idee-entreprise-collegue-au-bureau_1098-20607.jpg?ga=GA1.1.635129033.1711967180&semt=ais_hybrid",
         title: "MANAGEMENT, GESTION DES RH ET PAIE",
         description: "Formez-vous aux bases du management des ressources humaines et de la gestion des paies dans une organisation.",
         link: "management-gestion-rh-paie",
@@ -187,7 +187,7 @@ export const formations = [
         cost: "150 000 F"
     },
     {
-        icon: "caisse_microfinance.png",
+        image: "https://img.freepik.com/photos-gratuite/clients-assistes-par-vendeur-dans-magasin-ecologique_482257-76097.jpg?ga=GA1.1.635129033.1711967180&semt=ais_hybrid",
         title: "CAISSE ET GESTION DE MICROFINANCE",
         description: "Devenez expert en gestion de caisse et de microfinance, un secteur en plein essor.",
         link: "caisse-gestion-microfinance",
@@ -197,7 +197,7 @@ export const formations = [
         cost: "150 000 F"
     },
     {
-        icon: "communication_entreprises.png",
+        image: "https://img.freepik.com/photos-gratuite/laics-plats-travaillant-ensemble_23-2149762524.jpg?ga=GA1.1.635129033.1711967180&semt=ais_hybrid",
         title: "COMMUNICATION DES ENTREPRISES",
         description: "Maîtrisez les stratégies de communication interne et externe pour développer l’image et la réputation d’une entreprise.",
         link: "communication-entreprises",
@@ -207,7 +207,7 @@ export const formations = [
         cost: "150 000 F"
     },
     {
-        icon: "logistique_transit.png",
+        image: "https://img.freepik.com/photos-gratuite/travailleuse-afro-americaine-faisant-inventaire-colis-organisant-calendrier-livraison-tablette-numerique-sa-collegue-travaille-arriere-plan_637285-2227.jpg?ga=GA1.1.635129033.1711967180&semt=ais_hybrid",
         title: "LOGISTIQUE, TRANSIT ET DOUANE",
         description: "Apprenez à gérer les flux logistiques, le transit douanier et les opérations de commerce international.",
         link: "logistique-transit-douane",
@@ -217,7 +217,7 @@ export const formations = [
         cost: "100 000 F"
     },
     {
-        icon: "planification_projets.png",
+        image: "https://img.freepik.com/photos-gratuite/travailleurs-aidant-reunion-affaires_23-2149337289.jpg?ga=GA1.1.635129033.1711967180&semt=ais_hybrid",
         title: "PLANIFICATION ET GESTION DES PROJETS",
         description: "Développez les compétences nécessaires pour planifier, exécuter et suivre des projets de manière efficace.",
         link: "planification-gestion-projets",
@@ -227,7 +227,7 @@ export const formations = [
         cost: "100 000 F"
     },
     {
-        icon: "maintenance_reseau.png",
+        image: "https://img.freepik.com/photos-gratuite/ingenieur-testant-fibre-optique_23-2148323460.jpg?ga=GA1.1.635129033.1711967180&semt=ais_hybrid",
         title: "MAINTENANCE RÉSEAU",
         description: "Devenez un expert en maintenance des réseaux et infrastructures informatiques.",
         link: "maintenance-reseau",
@@ -237,7 +237,7 @@ export const formations = [
         cost: "150 000 F"
     },
     {
-        icon: "agriculture_maraichere.png",
+        image: "https://img.freepik.com/photos-gratuite/plein-coup-femmes-cultivant-ensemble_23-2149894655.jpg?ga=GA1.1.635129033.1711967180&semt=ais_hybrid",
         title: "AGRICULTURE ÉCOLOGIQUE ET MARAÎCHÈRE",
         description: "Apprenez les techniques d'agriculture durable et de maraîchage pour développer une exploitation agricole respectueuse de l’environnement.",
         link: "agriculture-ecologique-maraichere",
@@ -247,7 +247,7 @@ export const formations = [
         cost: "100 000 F"
     },
     {
-        icon: "secretariat_medical.png",
+        image: "https://img.freepik.com/photos-gratuite/femme-afro-americaine-travail-medecin-tenant-bouteille-medicament_482257-10243.jpg?ga=GA1.1.635129033.1711967180&semt=ais_hybrid",
         title: "SECRÉTARIAT MÉDICAL ET GESTION PHARMACEUTIQUE",
         description: "Formez-vous aux tâches administratives dans le secteur médical tout en maîtrisant la gestion pharmaceutique.",
         link: "secretariat-medical-gestion-pharmaceutique",
@@ -257,7 +257,7 @@ export const formations = [
         cost: "150 000 F"
     },
     {
-        icon: "secretariat_bureautique_aide_comptable.png",
+        image: "https://img.freepik.com/photos-gratuite/designer-industriel-travaillant-modele-3d_23-2149370130.jpg?ga=GA1.1.635129033.1711967180&semt=ais_hybrid",
         title: "SECRÉTARIAT BUREAUTIQUE ET AIDE COMPTABLE",
         description: "Acquérez des compétences en secrétariat et en aide comptable pour travailler dans différents environnements professionnels.",
         link: "secretariat-bureautique-aide-comptable",
@@ -267,7 +267,7 @@ export const formations = [
         cost: "150 000 F"
     },
     {
-        icon: "geometrie_topographie.png",
+        image: "https://img.freepik.com/photos-gratuite/esquisse-fournitures-architecte_23-2147710840.jpg?ga=GA1.1.635129033.1711967180&semt=ais_hybrid",
         title: "GÉOMÉTRIE - TOPOGRAPHIE",
         description: "Devenez un spécialiste en géométrie et en topographie pour travailler dans le secteur du génie civil et de la construction.",
         link: "geometrie-topographie",
@@ -277,7 +277,7 @@ export const formations = [
         cost: "300 000 F"
     },
     {
-        icon: "delegue_medical.png",
+        image: "https://img.freepik.com/photos-gratuite/vue-face-du-controle-medical-pour-concept-covid19_23-2148777436.jpg?ga=GA1.1.635129033.1711967180&semt=ais_hybrid",
         title: "DÉLÉGUÉ MÉDICAL",
         description: "Formez-vous pour devenir délégué médical, un acteur clé entre les laboratoires pharmaceutiques et les professionnels de santé.",
         link: "delegue-medical",

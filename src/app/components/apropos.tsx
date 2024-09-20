@@ -29,7 +29,7 @@ const APropos = () => {
                     <h1 className='font-jost text-2xl md:text-3xl text-orange-900 leading-tight
                     my-3
                     '>
-                        Des clients nous font confiance depuis 2014
+                        Nous sommes un agence offrant des formations aux jeunes sur le territoire .Togolais  Des clients nous font confiance depuis 2014
                     </h1>
                     <h3 className='text-orange-600 text-2xl font-bricolage'>
                         Atouts</h3>

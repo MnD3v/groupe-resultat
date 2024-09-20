@@ -25,7 +25,7 @@ export default function Home() {
   return (
     <div>
       {
-        isInView && <div className='fixed flex flex-col items-center justify-center bg-blue-950 h-full w-full'>
+        isInView && <div className='fixed flex flex-col items-center justify-center bg-orange-100 h-full w-full'>
           <div className='loader'></div>
         </div>}
       <motion.div
@@ -44,14 +44,14 @@ export default function Home() {
         <Equipe></Equipe>
       </motion.div>
 
-      <div className="fixed top-1/2 right-1/2 z-50 bg-green-600 p-4 text-white font-bold text-2xl">
+      {/* <div className="fixed top-1/2 right-1/2 z-50 bg-green-600/30 backdrop-blur-lg p-4 text-white font-bold text-2xl">
         <div className="sm:hidden">SM</div>
         <div className="max-sm:hidden md:hidden">MD</div>
         <div className="max-md:hidden lg:hidden">LG</div>
         <div className="max-lg:hidden xl:hidden">XL</div>
         <div className="max-xl:hidden 2xl:hidden">2XL</div>
         <div className="max-2xl:hidden 32xl:hidden">3XL</div>
-      </div>
+      </div> */}
     </div>
 
   );
