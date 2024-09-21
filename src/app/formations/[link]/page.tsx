@@ -3,6 +3,7 @@ import AppBar from '@/app/components/app_bar';
 import Animations from '@/app/components/utils/item';
 import { formations } from '@/app/constants';
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 import { useEffect, useState } from 'react';
 const Formation = ({ params }: { params: { link: string } }) => {
 
@@ -15,7 +16,7 @@ const Formation = ({ params }: { params: { link: string } }) => {
         console.log(e.link);
 
         return e.link === params.link
-    });
+    })!;
 
 
     const [isInView, setIsInView] = useState(true);
@@ -60,7 +61,11 @@ const Formation = ({ params }: { params: { link: string } }) => {
                     <div className='max-w-[800px] leading-relaxed'>
 
                         <div className='m-2 md:m-9'>
-                            <img src={formation?.image} alt="" className='h-[200px] sm:h-[300px] md:h-[500px] w-full object-cover' />
+                            <Image
+                                src={formation.image}
+                                width={200}
+                                height={200}
+                                alt="" className='h-[200px] sm:h-[300px] md:h-[500px] w-full object-cover' />
                             <h1 className='font-bricolage text-2xl md:text-4xl text-orange-600 mt-6'>{formation?.title}</h1>
                             <div className='h-px w-28 bg-blue-900 my-3'></div>
                             <p>{formation?.full_description}</p>
