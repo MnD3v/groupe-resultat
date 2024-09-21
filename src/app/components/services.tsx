@@ -23,7 +23,7 @@ const Services = () => {
             '>formations</h1>
 
                 <h3>Nous offrons des formations modulaires de 9 et 6 mois</h3>
-                <h2 className='inline-block text-white font-bricolage
+                <h2 className='inline-block text-lg md:text-xl  text-white font-bricolage
                 my-6
                 bg-orange-500 border-2 border-white rounded-full px-4 py-2
                 ring ring-orange-500 self-start
@@ -68,11 +68,15 @@ const Services = () => {
                     })
                 }
             </div>
-            <h2 className='inline-block text-white font-bricolage
+            <div className='max w-full'>
+
+                <h2 className='inline-block text-lg md:text-xl text-white font-bricolage
                 my-6 mt-12
                 bg-orange-500 border-2 border-white rounded-full px-4 py-2
-                ring ring-orange-500 self-start
+                ring ring-orange-500
                 '>9 mois</h2>
+            </div>
+
             <div className='max  grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3'>
                 {
                     formations_neuf.map((element) => (

@@ -81,7 +81,7 @@ const AppBar = () => {
                     </div>
                     {/* infos contact */}
                     <div className='p-6 hidden justify-between w-full md:flex'>
-                        <a href={inNotHome ? "/" : "#"}> <img src="/black-logo.png" alt="" className="h-10 md:h-16" />
+                        <a href={inNotHome ? "/" : "#"}> <img src="/black-logo.png" alt="" className="h-12 md:h-20" />
                         </a>
 
                         <ul className="max flex font-jost">

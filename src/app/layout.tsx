@@ -56,7 +56,7 @@ export default function RootLayout({
           <div className="relative z-10 max flex flex-wrap justify-center gap-9">
 
             <div>
-              <img src="/white-logo.png" alt="" className="h-14" />
+              <img src="/white-logo.png" alt="" className="h-12 md:h-20" />
               <p className="w-80 mt-1">Chez Resultat-Group,offre des solutions sur mesure pour donner vie à vos projets avec efficacité et innovation.</p>
               <div className="my-6 flex gap-2">
                 {socials.map((element) => (

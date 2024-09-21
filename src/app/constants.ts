@@ -147,7 +147,7 @@ export const formations_neuf = [
 
 export const formations = [
     {
-        image: "https://img.freepik.com/photos-gratuite/fille-peau-sombre-positive-fait-appel-telephonique-discute-amelioration-du-developpement-projet-entreprise-vetu-pull-jaune-regarde-cote-pose-fond-bleu_273609-34372.jpg?ga=GA1.1.635129033.1711967180&semt=ais_hybrid",
+        image: "https://img.freepik.com/photos-gratuite/employe-bureau-utilisant-graphiques-financiers_23-2150408705.jpg?t=st=1726948619~exp=1726952219~hmac=60516d1b987103392f4c3a41e6b7cd8eeb3b3925733958849b52c7252c5a4395&w=740",
         title: "SECRÉTARIAT BUREAUTIQUE BILINGUE",
         description: "Maîtrisez les compétences en secrétariat tout en améliorant vos compétences linguistiques en français et en anglais. Cette formation vous prépare à la gestion de bureau dans des contextes internationaux.",
         link: "secretariat-bureautique-bilingue",

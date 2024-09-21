@@ -41,7 +41,7 @@ const FixedAppBar = ({ fixed }: { fixed?: boolean }) => {
              py-6 px-4
              '>
 
-                <a href="#"> <img src="/black-logo.png" alt="" className='h-10 md:h-16' />
+                <a href="#"> <img src="/black-logo.png" alt="" className='h-12 md:h-20' />
                 </a>
                 <button
                     onClick={() => {
